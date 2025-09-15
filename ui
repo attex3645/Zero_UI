@@ -153,7 +153,7 @@ function library.new(library_title, cfg_location)
     }, ScreenGui)
 
     rs.RenderStepped:Connect(function()
-        Cursor.Position = UDim2.new(0, mouse.X, 0, mouse.Y + 36)
+        Cursor.Position = UDim2.new(0, mouse.X, 0, mouse.Y 36)
     end)
 
 	ScreenGui.Parent = game:GetService("CoreGui")
